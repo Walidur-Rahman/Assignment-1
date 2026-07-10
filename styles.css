@@ -3,6 +3,10 @@
     padding:0;
 }
 
+.section{
+    max-width: 2000px;
+    margin:auto;
+}
 
 .common-button{
     background-color:#1D4ED8;
@@ -66,6 +70,51 @@ header{
     padding:8px 12px;
     margin-top:250px;;
 }
+/* main section */
+.speaker{
+    margin-top:80px;
+    text-align: center;
+    
+}
+
+.card-container{
+     display:grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     gap: 40px;
+     margin:70px;
+     
+     
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #E5E7EB; 
+  border-radius: 12px; 
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.tag{
+    color:blue;
+    margin-bottom:8px;
+    margin-left:20px;
+    
+}
+.name{
+    color:#0D1B2A;
+    margin-bottom:8px;
+     margin-left:20px;
+}
+.role{
+    color:#575757;
+     margin-left:20px;
+      margin-bottom:8px;
+}
+
+
+
 
 
 
